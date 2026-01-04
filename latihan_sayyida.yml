@@ -1,0 +1,1152 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: powershell.exe
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: c:\XAMPP\mysql\bin
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 172
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 40
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 1220
+    content: "\e[?9001h\e[?1004h"
+  - delay: 148
+    content: "\e[?25l\e[2J\e[m\e[HWindows PowerShell\r\nCopyright (C) Microsoft Corporation. All rights reserved.\e[4;1HInstall the latest PowerShell for new features and improvements! https://aka.ms/PSWindows\e]0;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\a\e[?25h"
+  - delay: 21
+    content: "\e[?25l\e[6;1H\e]0;Administrator: C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\a\e[?25h"
+  - delay: 853
+    content: 'PS C:\XAMPP\mysql\bin> '
+  - delay: 10053
+    content: "\e[?25l"
+  - delay: 14
+    content: "\e[91m\e[6;22H> \e[37m."
+  - delay: 17
+    content: "\e[m\e[?25h"
+  - delay: 332
+    content: "\e[?25l"
+  - delay: 14
+    content: "\e[6;22H> \e[93m.\\\e[?25h"
+  - delay: 815
+    content: "\e[m\e[?25l"
+  - delay: 20
+    content: "\e[93m\e[6;24H.\\m\e[?25h"
+  - delay: 478
+    content: "\e[m\e[?25l"
+  - delay: 18
+    content: "\e[93m\e[6;24H.\\my\e[?25h"
+  - delay: 283
+    content: "\e[m\e[?25l"
+  - delay: 10
+    content: "\e[93m\e[6;24H.\\my \e[?25h"
+  - delay: 421
+    content: "\e[m\e[?25l"
+  - delay: 23
+    content: "\e[93m\e[6;24H.\\my \b\e[?25h"
+  - delay: 16
+    content: "\e[?25l\e[m\e[93m\e[6;24H.\\mys\e[?25h"
+  - delay: 192
+    content: "\e[m\e[?25l"
+  - delay: 21
+    content: "\e[93m\e[6;24H.\\mysw\e[?25h"
+  - delay: 424
+    content: "\e[m\e[?25l"
+  - delay: 24
+    content: "\e[93m\e[6;24H.\\mys \b\e[?25h"
+  - delay: 205
+    content: "\e[m\e[?25l"
+  - delay: 17
+    content: "\e[93m\e[6;24H.\\mysq\e[?25h"
+  - delay: 193
+    content: "\e[m\e[?25l"
+  - delay: 14
+    content: "\e[93m\e[6;24H.\\mysql\e[?25h"
+  - delay: 374
+    content: "\e[m\e[?25l"
+  - delay: 21
+    content: "\e[93m\e[6;24H.\\mysql \e[?25h"
+  - delay: 518
+    content: "\e[m\e[?25l"
+  - delay: 23
+    content: "\e[93m\e[6;24H.\\mysql \e[37m-\e[?25h"
+  - delay: 270
+    content: "\e[m\e[?25l"
+  - delay: 25
+    content: "\e[93m\e[6;24H.\\mysql \e[90m-u\e[?25h"
+  - delay: 239
+    content: "\e[m\e[?25l"
+  - delay: 14
+    content: "\e[93m\e[6;24H.\\mysql \e[90m-u \e[?25h"
+  - delay: 550
+    content: "\e[m\e[?25l"
+  - delay: 24
+    content: "\e[93m\e[6;24H.\\mysql \e[90m-u \e[37mr\e[?25h"
+  - delay: 198
+    content: "\e[m\e[?25l"
+  - delay: 15
+    content: "\e[93m\e[6;24H.\\mysql \e[90m-u \e[37mro\e[?25h"
+  - delay: 122
+    content: "\e[m\e[?25l"
+  - delay: 25
+    content: "\e[93m\e[6;24H.\\mysql \e[90m-u \e[37mroo\e[?25h"
+  - delay: 214
+    content: "\e[m\e[?25l"
+  - delay: 13
+    content: "\e[93m\e[6;24H.\\mysql \e[90m-u \e[37mroot\e[?25h"
+  - delay: 466
+    content: "\e[m\e[?25l"
+  - delay: 10
+    content: "\e[93m\e[6;24H.\\mysql \e[90m-u \e[37mroot \e[?25h"
+  - delay: 403
+    content: "\e[m\e[?25l"
+  - delay: 23
+    content: "\e[93m\e[6;24H.\\mysql \e[90m-u \e[37mroot -\e[?25h"
+  - delay: 213
+    content: "\e[m\e[?25l"
+  - delay: 17
+    content: "\e[93m\e[6;24H.\\mysql \e[90m-u \e[37mroot \e[90m-p\e[?25h"
+  - delay: 535
+    content: "\e[m"
+  - delay: 24
+    content: "\r\n"
+  - delay: 72
+    content: E
+  - delay: 23
+    content: 'nter password: '
+  - delay: 610
+    content: "\r\n"
+  - delay: 20
+    content: Welcome to the MariaDB monitor.  Commands end with ; or \g.
+  - delay: 11
+    content: "\e[?25l\r\nYour MariaDB connection id is 12\r\nServer version: 10.4.32-MariaDB mariadb.org binary distribution\e[12;1HCopyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.\e[14;1HType 'help;' or '\\h' for help. Type '\\c' to clear the current input statement.\e[16;1HMariaDB [(none)]> \e[?25h"
+  - delay: 1622
+    content: U
+  - delay: 187
+    content: S
+  - delay: 282
+    content: E
+  - delay: 235
+    content: ' '
+  - delay: 489
+    content: S
+  - delay: 408
+    content: e
+  - delay: 219
+    content: r
+  - delay: 205
+    content: e
+  - delay: 160
+    content: 'n'
+  - delay: 81
+    content: d
+  - delay: 189
+    content: i
+  - delay: 268
+    content: p
+  - delay: 234
+    content: i
+  - delay: 305
+    content: t
+  - delay: 159
+    content: 'y'
+  - delay: 269
+    content: ' '
+  - delay: 589
+    content: "\b \b"
+  - delay: 493
+    content: _
+  - delay: 1013
+    content: H
+  - delay: 196
+    content: o
+  - delay: 283
+    content: t
+  - delay: 119
+    content: e
+  - delay: 201
+    content: l
+  - delay: 1071
+    content: ;
+  - delay: 416
+    content: "\r\n"
+  - delay: 12
+    content: "Database changed\r\nMariaDB [Serendipity_Hotel]> "
+  - delay: 928
+    content: S
+  - delay: 602
+    content: H
+  - delay: 240
+    content: O
+  - delay: 121
+    content: W
+  - delay: 215
+    content: ' '
+  - delay: 230
+    content: T
+  - delay: 99
+    content: A
+  - delay: 388
+    content: L
+  - delay: 166
+    content: E
+  - delay: 228
+    content: "\b \b"
+  - delay: 124
+    content: "\b \b"
+  - delay: 251
+    content: B
+  - delay: 218
+    content: L
+  - delay: 55
+    content: E
+  - delay: 221
+    content: S
+  - delay: 692
+    content: ;
+  - delay: 594
+    content: "\r\n"
+  - delay: 9
+    content: "+-----------------------------+\r\n| Tables_in_serendipity_hotel |\r\n+-----------------------------+\r\n| kamar                       |\r\n| reservasi   "
+  - delay: 18
+    content: "\e[?25l                |\r\n| tamu                        |\r\n+-----------------------------+\r\n3 rows in set (0.001 sec)\e[28;1HMariaDB [Serendipity_Hotel]> \e[?25h"
+  - delay: 1902
+    content: S
+  - delay: 483
+    content: E
+  - delay: 310
+    content: L
+  - delay: 68
+    content: E
+  - delay: 221
+    content: C
+  - delay: 194
+    content: T
+  - delay: 455
+    content: ' '
+  - delay: 407
+    content: '*'
+  - delay: 332
+    content: ' '
+  - delay: 260
+    content: F
+  - delay: 163
+    content: R
+  - delay: 101
+    content: O
+  - delay: 165
+    content: M
+  - delay: 438
+    content: ' '
+  - delay: 891
+    content: k
+  - delay: 63
+    content: a
+  - delay: 156
+    content: m
+  - delay: 27
+    content: a
+  - delay: 256
+    content: r
+  - delay: 830
+    content: ;
+  - delay: 409
+    content: "\r\n"
+  - delay: 13
+    content: "+----------+-------------+------------+-----------------+--------------+\r\n| id_kamar | nomor_kamar | tipe_kamar | harga_per_malam | status_kamar |\r\n+----------+-------------+------------+-----------------+--------------+\r\n|        1 | 001         | Deluxe     |       350000.00 | Terisi       |\r\n|        2 | 002         | S"
+  - delay: 17
+    content: "\e[?25lUITE      |       850000.00 | Tersedia     |\r\n+----------+-------------+------------+-----------------+--------------+\r\n2 rows in set (0.001 sec)\e[37;1HMariaDB [Serendipity_Hotel]> \e[?25h"
+  - delay: 2554
+    content: S
+  - delay: 850
+    content: E
+  - delay: 279
+    content: L
+  - delay: 146
+    content: E
+  - delay: 341
+    content: C
+  - delay: 226
+    content: T
+  - delay: 684
+    content: ' '
+  - delay: 487
+    content: '*'
+  - delay: 539
+    content: ' '
+  - delay: 170
+    content: F
+  - delay: 195
+    content: R
+  - delay: 153
+    content: O
+  - delay: 170
+    content: M
+  - delay: 329
+    content: ' '
+  - delay: 499
+    content: t
+  - delay: 117
+    content: a
+  - delay: 162
+    content: m
+  - delay: 280
+    content: u
+  - delay: 753
+    content: ;
+  - delay: 1048
+    content: "\r\n+---------+--------------+-------------+-----------------+\r\n| id_tamu | nama_tamu    | no_hp       | alamat          |\r\n+---------+--------------+-------------+-----------------+\r"
+  - delay: 10
+    content: "\n|       1 | Morgen Klein | 81293513047 | Jalan Mars Raya |\r\n|\e[2C"
+  - delay: 5
+    content: "     2 | Saint Vaughn | 81293513048 | Jalan Merkurius |\r\n+---------+--------------+-------------+-----------------+\r\n2 rows in set (0.001 sec)\r\n"
+  - delay: 30
+    content: "\nMariaDB [Serendipity_Hotel]>\e[1C"
+  - delay: 3326
+    content: I
+  - delay: 169
+    content: 'N'
+  - delay: 116
+    content: S
+  - delay: 263
+    content: E
+  - delay: 224
+    content: R
+  - delay: 200
+    content: T
+  - delay: 234
+    content: ' '
+  - delay: 300
+    content: I
+  - delay: 163
+    content: 'N'
+  - delay: 185
+    content: T
+  - delay: 176
+    content: O
+  - delay: 182
+    content: ' '
+  - delay: 285
+    content: t
+  - delay: 162
+    content: a
+  - delay: 117
+    content: m
+  - delay: 216
+    content: u
+  - delay: 187
+    content: ' '
+  - delay: 491
+    content: (
+  - delay: 1030
+    content: ' '
+  - delay: 482
+    content: "\b \b"
+  - delay: 162
+    content: '`'
+  - delay: 615
+    content: i
+  - delay: 198
+    content: d
+  - delay: 365
+    content: _
+  - delay: 508
+    content: t
+  - delay: 91
+    content: a
+  - delay: 188
+    content: m
+  - delay: 184
+    content: u
+  - delay: 90
+    content: '`'
+  - delay: 653
+    content: ','
+  - delay: 195
+    content: ' '
+  - delay: 105
+    content: '`'
+  - delay: 450
+    content: 'n'
+  - delay: 94
+    content: a
+  - delay: 133
+    content: m
+  - delay: 50
+    content: a
+  - delay: 350
+    content: _
+  - delay: 419
+    content: t
+  - delay: 96
+    content: a
+  - delay: 179
+    content: m
+  - delay: 199
+    content: u
+  - delay: 198
+    content: '`'
+  - delay: 275
+    content: ','
+  - delay: 220
+    content: ' '
+  - delay: 130
+    content: '`'
+  - delay: 1042
+    content: 'n'
+  - delay: 189
+    content: o
+  - delay: 315
+    content: _
+  - delay: 378
+    content: h
+  - delay: 345
+    content: p
+  - delay: 133
+    content: '`'
+  - delay: 200
+    content: ','
+  - delay: 235
+    content: ' '
+  - delay: 89
+    content: '`'
+  - delay: 1273
+    content: a
+  - delay: 168
+    content: l
+  - delay: 74
+    content: a
+  - delay: 134
+    content: m
+  - delay: 76
+    content: a
+  - delay: 219
+    content: t
+  - delay: 223
+    content: '`'
+  - delay: 1130
+    content: )
+  - delay: 1133
+    content: ' '
+  - delay: 288
+    content: V
+  - delay: 142
+    content: A
+  - delay: 166
+    content: L
+  - delay: 215
+    content: U
+  - delay: 94
+    content: E
+  - delay: 199
+    content: S
+  - delay: 285
+    content: ' '
+  - delay: 533
+    content: (
+  - delay: 543
+    content: ''''
+  - delay: 908
+    content: '3'
+  - delay: 204
+    content: ''''
+  - delay: 974
+    content: ','
+  - delay: 203
+    content: ' '
+  - delay: 290
+    content: ''''
+  - delay: 797
+    content: "\b \b"
+  - delay: 175
+    content: "\b \b"
+  - delay: 777
+    content: ' '
+  - delay: 214
+    content: ''''
+  - delay: 4141
+    content: 'N'
+  - delay: 377
+    content: a
+  - delay: 283
+    content: c
+  - delay: 345
+    content: h
+  - delay: 218
+    content: t
+  - delay: 730
+    content: ' '
+  - delay: 441
+    content: A
+  - delay: 407
+    content: s
+  - delay: 188
+    content: h
+  - delay: 115
+    content: e
+  - delay: 195
+    content: r
+  - delay: 658
+    content: ''''
+  - delay: 490
+    content: ','
+  - delay: 646
+    content: ' '
+  - delay: 2295
+    content: ''''
+  - delay: 6239
+    content: '0'
+  - delay: 268
+    content: '8'
+  - delay: 324
+    content: '1'
+  - delay: 229
+    content: '2'
+  - delay: 498
+    content: '9'
+  - delay: 439
+    content: '3'
+  - delay: 300
+    content: '5'
+  - delay: 893
+    content: '1'
+  - delay: 619
+    content: '3'
+  - delay: 1656
+    content: '0'
+  - delay: 1016
+    content: '4'
+  - delay: 453
+    content: '9'
+  - delay: 1951
+    content: ''''
+  - delay: 547
+    content: ','
+  - delay: 425
+    content: ' '
+  - delay: 1053
+    content: ''''
+  - delay: 3115
+    content: J
+  - delay: 344
+    content: a
+  - delay: 210
+    content: l
+  - delay: 122
+    content: a
+  - delay: 202
+    content: 'n'
+  - delay: 743
+    content: ' '
+  - delay: 600
+    content: M
+  - delay: 352
+    content: a
+  - delay: 184
+    content: t
+  - delay: 120
+    content: a
+  - delay: 175
+    content: h
+  - delay: 85
+    content: a
+  - delay: 346
+    content: r
+  - delay: 254
+    content: i
+  - delay: 659
+    content: ''''
+  - delay: 1159
+    content: )
+  - delay: 904
+    content: ;
+  - delay: 272
+    content: "\r\n"
+  - delay: 367
+    content: "Query OK, 1 row affected (0.366 sec)\r\n"
+  - delay: 34
+    content: "\nMariaDB [Serendipity_Hotel]>\e[1C"
+  - delay: 5024
+    content: S
+  - delay: 271
+    content: E
+  - delay: 200
+    content: L
+  - delay: 128
+    content: E
+  - delay: 848
+    content: C
+  - delay: 596
+    content: T
+  - delay: 241
+    content: ' '
+  - delay: 360
+    content: '*'
+  - delay: 562
+    content: ' '
+  - delay: 234
+    content: F
+  - delay: 165
+    content: R
+  - delay: 84
+    content: O
+  - delay: 176
+    content: M
+  - delay: 194
+    content: ' '
+  - delay: 308
+    content: t
+  - delay: 125
+    content: a
+  - delay: 140
+    content: m
+  - delay: 198
+    content: u
+  - delay: 729
+    content: ;
+  - delay: 436
+    content: "\r\n+---------+--------------+-------------+-----------------+\r\n| id_tamu | nama_tamu    | no_hp       | alamat          |\r\n+---------+--------------+-------------+-----------------+\r"
+  - delay: 21
+    content: "\n|       1 | Morgen Klein | 81293513047 | Jalan Mars Raya |\r\n|       2 | Saint Vaughn | 81293513048 | Jalan Merkurius |\r\n|       3 | Nacht Asher  | 81293513049 | Jalan Matahari  |\r\n+---------+--------------+-------------+-----------------+\r\n3 rows in set (0.001 sec)\r\n\nMariaDB [Serendipity_Hotel]>\e[1C"
+  - delay: 2975
+    content: I
+  - delay: 213
+    content: 'N'
+  - delay: 120
+    content: S
+  - delay: 183
+    content: E
+  - delay: 138
+    content: R
+  - delay: 538
+    content: T
+  - delay: 252
+    content: ' '
+  - delay: 220
+    content: I
+  - delay: 148
+    content: 'N'
+  - delay: 121
+    content: T
+  - delay: 122
+    content: O
+  - delay: 215
+    content: ' '
+  - delay: 279
+    content: k
+  - delay: 90
+    content: a
+  - delay: 164
+    content: m
+  - delay: 50
+    content: a
+  - delay: 286
+    content: r
+  - delay: 502
+    content: ' '
+  - delay: 270
+    content: (
+  - delay: 1715
+    content: i
+  - delay: 492
+    content: "\b \b"
+  - delay: 347
+    content: '`'
+  - delay: 234
+    content: i
+  - delay: 378
+    content: d
+  - delay: 360
+    content: _
+  - delay: 489
+    content: k
+  - delay: 115
+    content: a
+  - delay: 113
+    content: m
+  - delay: 40
+    content: a
+  - delay: 236
+    content: r
+  - delay: 313
+    content: '`'
+  - delay: 492
+    content: ','
+  - delay: 182
+    content: ' '
+  - delay: 85
+    content: '`'
+  - delay: 462
+    content: 'n'
+  - delay: 214
+    content: o
+  - delay: 156
+    content: m
+  - delay: 165
+    content: o
+  - delay: 112
+    content: r
+  - delay: 447
+    content: _
+  - delay: 278
+    content: k
+  - delay: 111
+    content: a
+  - delay: 98
+    content: m
+  - delay: 44
+    content: a
+  - delay: 670
+    content: r
+  - delay: 488
+    content: '`'
+  - delay: 349
+    content: ','
+  - delay: 260
+    content: ' '
+  - delay: 1546
+    content: t
+  - delay: 200
+    content: i
+  - delay: 233
+    content: p
+  - delay: 102
+    content: a
+  - delay: 521
+    content: "\b \b"
+  - delay: 168
+    content: "\b \b"
+  - delay: 117
+    content: "\b \b"
+  - delay: 353
+    content: "\b \b"
+  - delay: 151
+    content: '`'
+  - delay: 735
+    content: t
+  - delay: 141
+    content: i
+  - delay: 215
+    content: p
+  - delay: 329
+    content: r
+  - delay: 623
+    content: "\b \b"
+  - delay: 95
+    content: e
+  - delay: 195
+    content: '-'
+  - delay: 643
+    content: "\b \b"
+  - delay: 329
+    content: _
+  - delay: 634
+    content: k
+  - delay: 135
+    content: a
+  - delay: 104
+    content: m
+  - delay: 59
+    content: a
+  - delay: 361
+    content: r
+  - delay: 316
+    content: '1'
+  - delay: 633
+    content: "\b \b"
+  - delay: 532
+    content: '`'
+  - delay: 199
+    content: ','
+  - delay: 259
+    content: ' '
+  - delay: 170
+    content: '`'
+  - delay: 722
+    content: h
+  - delay: 98
+    content: a
+  - delay: 201
+    content: r
+  - delay: 259
+    content: g
+  - delay: 125
+    content: a
+  - delay: 605
+    content: _
+  - delay: 562
+    content: p
+  - delay: 114
+    content: e
+  - delay: 210
+    content: r
+  - delay: 424
+    content: _
+  - delay: 409
+    content: m
+  - delay: 98
+    content: a
+  - delay: 147
+    content: l
+  - delay: 69
+    content: a
+  - delay: 164
+    content: m
+  - delay: 1058
+    content: '`'
+  - delay: 234
+    content: ','
+  - delay: 193
+    content: ' '
+  - delay: 100
+    content: '`'
+  - delay: 949
+    content: s
+  - delay: 214
+    content: t
+  - delay: 105
+    content: a
+  - delay: 109
+    content: t
+  - delay: 220
+    content: u
+  - delay: 98
+    content: s
+  - delay: 641
+    content: _
+  - delay: 283
+    content: k
+  - delay: 94
+    content: a
+  - delay: 120
+    content: m
+  - delay: 44
+    content: a
+  - delay: 316
+    content: r
+  - delay: 2168
+    content: '`'
+  - delay: 883
+    content: ','
+  - delay: 1600
+    content: "\b \b"
+  - delay: 861
+    content: )
+  - delay: 546
+    content: ' '
+  - delay: 357
+    content: V
+  - delay: 192
+    content: A
+  - delay: 248
+    content: L
+  - delay: 255
+    content: U
+  - delay: 145
+    content: E
+  - delay: 259
+    content: S
+  - delay: 769
+    content: ' '
+  - delay: 801
+    content: (
+  - delay: 1447
+    content: ''''
+  - delay: 1380
+    content: '3'
+  - delay: 739
+    content: ''''
+  - delay: 792
+    content: ','
+  - delay: 244
+    content: ' '
+  - delay: 496
+    content: ''''
+  - delay: 557
+    content: '0'
+  - delay: 194
+    content: '0'
+  - delay: 1284
+    content: '3'
+  - delay: 1559
+    content: ''''
+  - delay: 564
+    content: ','
+  - delay: 239
+    content: ' '
+  - delay: 592
+    content: ''''
+  - delay: 2847
+    content: P
+  - delay: 985
+    content: R
+  - delay: 401
+    content: E
+  - delay: 381
+    content: S
+  - delay: 318
+    content: I
+  - delay: 245
+    content: D
+  - delay: 223
+    content: E
+  - delay: 155
+    content: 'N'
+  - delay: 270
+    content: T
+  - delay: 2054
+    content: ''''
+  - delay: 988
+    content: ','
+  - delay: 239
+    content: ' '
+  - delay: 469
+    content: ''''
+  - delay: 4079
+    content: '1'
+  - delay: 1181
+    content: "\b \b"
+  - delay: 1697
+    content: '5'
+  - delay: 1157
+    content: '5'
+  - delay: 992
+    content: '0'
+  - delay: 269
+    content: '0'
+  - delay: 364
+    content: '0'
+  - delay: 622
+    content: '0'
+  - delay: 280
+    content: '0'
+  - delay: 304
+    content: '0'
+  - delay: 1467
+    content: ''''
+  - delay: 788
+    content: ','
+  - delay: 643
+    content: ' '
+  - delay: 415
+    content: ''''
+  - delay: 1848
+    content: T
+  - delay: 538
+    content: "e\r\n\e[39;172He\r\n"
+  - delay: 350
+    content: r
+  - delay: 493
+    content: i
+  - delay: 184
+    content: s
+  - delay: 175
+    content: i
+  - delay: 1545
+    content: ''''
+  - delay: 559
+    content: )
+  - delay: 594
+    content: ;
+  - delay: 315
+    content: "\r\n"
+  - delay: 363
+    content: "Query OK, 1 row affected (0.362 sec)\r\n"
+  - delay: 43
+    content: "\nMariaDB [Serendipity_Hotel]>\e[1C"
+  - delay: 3762
+    content: S
+  - delay: 272
+    content: E
+  - delay: 199
+    content: L
+  - delay: 36
+    content: E
+  - delay: 226
+    content: C
+  - delay: 248
+    content: T
+  - delay: 339
+    content: ' '
+  - delay: 867
+    content: '*'
+  - delay: 384
+    content: F
+  - delay: 996
+    content: "\b \b"
+  - delay: 300
+    content: ' '
+  - delay: 114
+    content: F
+  - delay: 126
+    content: R
+  - delay: 173
+    content: O
+  - delay: 200
+    content: M
+  - delay: 639
+    content: ' '
+  - delay: 948
+    content: k
+  - delay: 87
+    content: a
+  - delay: 135
+    content: m
+  - delay: 36
+    content: a
+  - delay: 245
+    content: r
+  - delay: 1041
+    content: ;
+  - delay: 476
+    content: "\r\n+----------+-------------+------------+-----------------+--------------+\r\n| id_kamar | nomor_kamar | tipe_kamar | harga_per_malam | status_kamar |\r\n+----------+-------------+------------+-----------------+--------------+\r"
+  - delay: 10
+    content: "\n|        1 | 001         | Deluxe     |       350000.00 | Terisi       |\r"
+  - delay: 5
+    content: "\n|        2 | 002         | SUITE      |       850000.00 | Tersedia     |\r\n|        3 | 003         | PRESIDENT  |     55000000.00 | Terisi       |\r\n+----------+-------------+------------+-----------------+--------------+\r\n3 rows in set (0.001 sec)\r\n"
+  - delay: 14
+    content: "\nMariaDB [Serendipity_Hotel]>\e[1C"
+  - delay: 10815
+    content: e
+  - delay: 2020
+    content: x
+  - delay: 131
+    content: i
+  - delay: 220
+    content: t
+  - delay: 716
+    content: "\r\nBye\r"
+  - delay: 22
+    content: |+
+
+  - delay: 510
+    content: 'PS C:\XAMPP\mysql\bin> '
+  - delay: 2488
+    content: "\e[?25l"
+  - delay: 20
+    content: "\e[93me\e[?25h"
+  - delay: 240
+    content: "\e[m\e[?25l"
+  - delay: 23
+    content: "\e[93m\bex\e[?25h"
+  - delay: 152
+    content: "\e[m\e[?25l"
+  - delay: 12
+    content: "\e[93m\e[40;24Hext\e[?25h"
+  - delay: 729
+    content: "\e[m\e[?25l"
+  - delay: 12
+    content: "\e[93m\e[40;24Hex \b\e[?25h"
+  - delay: 478
+    content: "\e[m\e[?25l"
+  - delay: 13
+    content: "\e[93m\e[40;24Hexi\e[?25h"
+  - delay: 238
+    content: "\e[m\e[?25l"
+  - delay: 25
+    content: "\e[92m\e[40;24Hexit\e[?25h"
+  - delay: 408
+    content: "\e[m"
+  - delay: 17
+    content: "\r\n"
